@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/hint"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="60dp"
+        android:contextClickable="false"
+        android:fontFamily="casual"
+        android:isScrollContainer="false"
+        android:text="@string/grade_calculator"
+        android:textColor="#000000"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="239dp"
+        android:layout_height="55dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="120dp"
+        android:background="#A37AED"
+        android:backgroundTint="#A65B56F1"
+        android:hint="Quizes %15"
+        android:textColor="#A8000000"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="239dp"
+        android:layout_height="55dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="190dp"
+        android:background="#A37AED"
+        android:backgroundTint="#A65B56F1"
+        android:hint="@string/homework_25"
+        android:textColor="#A8000000"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="239dp"
+        android:layout_height="55dp"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="260dp"
+        android:layout_marginEnd="86dp"
+        android:background="#A37AED"
+        android:backgroundTint="#A65B56F1"
+        android:hint="@string/mid_terms_30"
+        android:textColor="#A8000000"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="239dp"
+        android:layout_height="55dp"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="330dp"
+        android:layout_marginEnd="86dp"
+        android:background="#A37AED"
+        android:backgroundTint="#A65B56F1"
+        android:hint="@string/final_30"
+        android:textColor="#A8000000"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="160dp"
+        android:layout_height="65dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="396dp"
+        android:layout_marginEnd="120dp"
+        android:layout_marginBottom="226dp"
+        android:backgroundTint="#AD6D46FB"
+        android:text="@string/calculate" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="109dp"
+        android:layout_height="46dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="467dp"
+        android:layout_marginEnd="145dp"
+        android:layout_marginBottom="167dp"
+        android:backgroundTint="#D8CDFB"
+        android:text="@string/resat" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="102dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="526dp"
+        android:layout_marginEnd="149dp"
+        android:layout_marginBottom="167dp"
+        android:fontFamily="casual"
+        android:gravity="center"
+        android:hint="@string/result"
+        android:textSize="30sp" />
+
+</RelativeLayout>
